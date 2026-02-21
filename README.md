@@ -1,16 +1,68 @@
-# House Sales in King County, USA
+# 🏠 House Price Analysis & Prediction
 
-O desafio do Kaggle sobre os preços de venda de casas em King County é uma competição que tem como objetivo prever os preços de venda de imóveis com base em um conjunto de dados fornecido. King County é uma região localizada no estado de Washington, nos Estados Unidos, e inclui a cidade de Seattle. O conjunto de dados contém informações detalhadas sobre as propriedades, como o número de quartos, banheiros, tamanho da casa, tamanho do lote, localização, condição da propriedade, entre outros atributos. O principal objetivo é desenvolver um modelo de machine learning que seja capaz de prever o preço de venda de uma casa com base nas características fornecidas no conjunto de dados. 
+## 📌 Visão Geral
 
-A partir desses dados, foram criados modelos de aprendizado de máquina utilizando bibliotecas como Sklearn e xgboost para solucionar este problema. As principais etapas deste projeto foram:
+Este projeto tem como objetivo analisar os fatores que influenciam os preços de imóveis residenciais e desenvolver um modelo preditivo capaz de estimar valores de venda com base em atributos estruturais. A abordagem combina Análise Exploratória de Dados (EDA), tratamento de dados e Machine Learning supervisionado, seguindo boas práticas de ciência de dados.
 
-- Análise exploratória para entender os dados
-- Visualizaçoes de dados a partir de insights
-- Aplicação de modelos de Aprendizado de Máquina
-- Otimização de parâmetros de algoritmos
-- Comparação entre os modelos de Machine Learning
+<br>
 
-Ao longo do projeto, os trechos de códigos foram comentados e os modelos e métodos de avaliação foram explicados para uma melhor compreensão do que foi feito em cada etapa, além de estatísticas e interpretações dos resultados. 
+## 📊 Conjunto de Dados
+
+O dataset utilizado contém informações detalhadas sobre imóveis residenciais, incluindo características físicas (área, número de quartos, banheiros), localização e variáveis associadas à qualidade do imóvel. Os dados são amplamente utilizados em competições e estudos de regressão, como os disponibilizados na Kaggle, sendo ideais para avaliação de técnicas de modelagem preditiva.
+
+<br>
+
+## 🔎 Análise Exploratória de Dados (EDA)
+
+A etapa de EDA teve como foco compreender a estrutura dos dados e identificar padrões relevantes, incluindo:
+
+- análise de distribuições e assimetrias das variáveis numéricas;
+
+- identificação de correlações entre atributos e o preço do imóvel;
+
+- avaliação de outliers e valores ausentes;
+
+- verificação de relações não lineares entre variáveis explicativas e a variável alvo.
+
+Essas análises forneceram subsídios técnicos para decisões de pré-processamento e escolha dos modelos.
+
+<br>
+
+## 🧠 Modelagem Preditiva
+
+Após o pré-processamento dos dados, foram aplicados modelos de regressão supervisionada, com foco em:
+
+- separação adequada entre conjuntos de treino e teste;
+
+- avaliação de desempenho por meio de métricas de erro apropriadas;
+
+- comparação entre modelos para seleção da abordagem com melhor capacidade de generalização.
+
+Os resultados indicam que o modelo escolhido captura de forma consistente os principais fatores que influenciam o preço dos imóveis, apresentando desempenho satisfatório para fins analíticos e preditivos.
+
+<br>
+
+## 📈 Resultados e Conclusões
+
+- O preço dos imóveis é fortemente influenciado por variáveis relacionadas à área construída, qualidade do imóvel e localização.
+
+- A Análise Exploratória foi fundamental para revelar relações relevantes e orientar a modelagem.
+
+- O modelo final demonstrou boa capacidade de generalização, sendo adequado para cenários de avaliação de preços e suporte à tomada de decisão.
+
+<br>
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python
+
+- Pandas, NumPy
+
+- Matplotlib, Seaborn
+
+- Scikit-learn
+
+<br>
 
 > [Veja o notebook para detalhes da análise](https://github.com/Gleynner/HouseSalesInKingCounty-USA/blob/main/house_price_analysis.ipynb)
 
