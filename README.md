@@ -12,5 +12,5 @@ A partir desses dados, foram criados modelos de aprendizado de máquina utilizan
 
 Ao longo do projeto, os trechos de códigos foram comentados e os modelos e métodos de avaliação foram explicados para uma melhor compreensão do que foi feito em cada etapa, além de estatísticas e interpretações dos resultados. 
 
-[Clique aqui para ver o projeto completo](https://github.com/Gleynner/HouseSalesInKingCounty-USA/blob/main/house_price_analysis.ipynb)
+> [Veja o notebook para detalhes da análise](https://github.com/Gleynner/HouseSalesInKingCounty-USA/blob/main/house_price_analysis.ipynb)
 
